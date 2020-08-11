@@ -46,4 +46,90 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+* {
+    font-size: 16px;
+}
 
+html {
+    width: 1000px;
+    font-family: Roboto Mono;  
+}
+
+body {
+    width: 100%;
+    border: 2px solid red;
+}
+a.header-nav1 {
+    background-color: #FF764E;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    margin:0 3%;
+}
+
+nav a.header-nav2 {
+    background-color: #5ED3EB;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    margin:0 3% ;
+}
+
+nav a.header-nav3 {
+    background-color: #FFCD69;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    margin:0 3%;
+}
+
+h1 {
+    font-family: Chelsea Market;
+    font-size: 3rem;
+    display: inline;
+    position: absolute;
+    top: 13%;
+    left: 24%;
+}
+
+.header-image {
+    width: 25%;
+    border-radius: 50%;
+    margin: 30px 50px;
+}
+
+.header-container nav {
+    max-width: 100%;
+    text-align: center;
+    padding: 5% 1%;
+}
+
+.headertext {
+    font-size: 1.05rem;
+    position: absolute;
+    left: 26%;
+    top: 18%;
+    text-align: center;
+}
+
+.maintext1 {
+    font-size: 1.1rem;
+    color: white;
+    background-color:#DDB9A3;
+    padding: 2% 2%;
+    text-align:center;
+    
+}    
+
+.footerimage {
+    width: 100%;
+}
+.footercontainer {
+    background-color: #F9E7DC;
+    max-width: 100%;
+    padding: 5% 8%;
+    text-align: center;
+}
