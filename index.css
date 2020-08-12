@@ -58,11 +58,14 @@ html {
     position: relative;
     margin:0 auto;
     font-size: 62.5%;
+    background-color:#e1e9eb;
  
 }
 
 body {
     width: 100%;
+    box-shadow:1rem 1rem 10rem #37494d;
+    background-color:white;
  
     
 }
@@ -117,7 +120,6 @@ h1 {
 img.header-image {
     border-radius: 50%;
     margin: 0 0 4% 3%;   
-    box-shadow: 0.5rem 0.5rem 5rem 1rem #5ED3EB;
     display:inline-block;
     max-width:25%;
 }
@@ -126,6 +128,7 @@ img.header-image {
     max-width: 100%;
     text-align: center;
     padding: 5% 0%;
+    ;
 }
 
 .headertext {
@@ -143,9 +146,10 @@ img.header-image {
     font-size: 1.6rem;
     color: white;
     background-color:#DDB9A3;
-    padding: 2% 5%;
+    padding: 2% 4%;
     text-align:center; 
     margin: 0 4%; 
+    line-height: 2rem;
 }    
 
 .emoji {
